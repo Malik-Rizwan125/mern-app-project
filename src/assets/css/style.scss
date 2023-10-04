@@ -1,0 +1,71 @@
+.container {
+    width: 630px;
+    margin: auto;
+    padding: 50px 20px;
+
+    .form-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            font-weight: 500;
+            font-size: 22px;
+        }
+    }
+
+    .input-flex {
+        display: flex;
+    }
+
+    .large-input {
+        width: 70%;
+        margin-right: 5px;
+    }
+
+    input {
+        border-color: #eee;
+        padding: 6px 10px;
+        border-radius: 3px;
+    }
+
+    .apply-radio {
+        margin-top: 10px;
+    }
+
+    .radio-btn {
+        margin-left: 5px;
+    }
+
+    .check-box {
+        margin-left: 5px;
+    }
+}
+
+.bg-clr {
+    background-color: #EEEEEE;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.apply-btn {
+    text-align: end;
+    margin-top: 20px;
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        background: #F16D36;
+        color: white;
+    }
+}
+
+.error {
+    color: red
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100% !important;
+    }
+}
